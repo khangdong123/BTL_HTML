@@ -1,0 +1,93 @@
+
+#logo-img{
+    width: 50px;
+    height: auto;
+    
+}
+#logo{
+    width: 250px;
+    margin-right: 800px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.menu .list{
+    text-transform: uppercase;
+    font-weight:bold ;
+    margin-top: 10px;
+background-color: rgb(255, 255, 255);
+padding: 20px;
+padding: 30px 9px;
+text-decoration: none;
+    
+display: flex;
+    justify-content: right;
+    list-style: none;
+    position:relative;
+}
+
+.button2{
+
+    display:inline-block;
+        padding:8px 10px;
+        background-color:	#ffffff;
+        color:rgb(0, 0, 0);
+        text-decoration: none;
+        border-radius: 10%;
+        margin-top: 20px;
+
+
+        cursor:pointer;
+    transform: skew(0deg);
+    &:before{
+    content:"";
+    position: absolute; 
+    top:0;
+    bottom:0;
+    right:100%;
+    left: 100%; 
+    background: #000000; 
+    opacity: 0;
+    z-index:-1; 
+    transition: all 0.5s;
+    border-radius: 10%;
+    }
+    &:hover { 
+        
+    color:#fff;
+    &:before{ 
+    left:0;
+    right:0;
+    
+    opacity: 1;
+    text-align: center;
+    }}}
+
+
+
+.product-cat{
+    text-decoration: none;
+    font-size: 100%;
+}
+li{
+    padding-left: 20px;
+}
+.khung{
+    padding: 20px;
+}
+h3{
+    color:chocolate;
+    font-size: 250%;
+}
+.anh1{
+    text-align: center;
+}
+h4{
+    font-size: 100%;
+    margin: 0%;
+}
+.anh{
+    padding: 0px 0px;
+    margin: 0px 0px;
+   
+    text-align: center;
+}
